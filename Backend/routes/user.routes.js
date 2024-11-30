@@ -12,4 +12,8 @@ router.post('/register',[
 ], userController.registerUser)
 
 
+
+router.post('/login')
+
+
 module.exports = router;
